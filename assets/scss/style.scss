@@ -1,0 +1,43 @@
+$pink: #C6A7A4;
+$black: #2A292D;
+
+img{
+    image-rendering: -webkit-optimize-contrast !important;
+    object-position: center;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+html, body{
+    margin: 0;
+}
+
+h1, h2, p, a{
+    font-family: Cambria, Georgia, serif;
+    margin: 0;
+    color: $black;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 19px;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 60px;
+}
+
+h2, a{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body{
+    background-color: $black;
+}
+
+@import 'header';
+@import 'hero';
+@import 'slug';
